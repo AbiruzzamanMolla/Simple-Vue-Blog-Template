@@ -8,7 +8,7 @@
       <div class="w-full flex flex-row items-center justify-between">
         <div class="text-3xl font-bold">
           <span :class="{ 'sm:text-white': !showWhiteBackground }">Abir's</span>
-          <span class="text-primary">Project</span>
+          <span class="text-primary">Blog</span>
         </div>
         <div>
           <button v-show="!isVisible" class="sm:hidden" @click="toggle">

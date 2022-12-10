@@ -5,7 +5,7 @@
     <div class="px-4 sm:px-0 pt-8 sm:pt-0 absolute inset-0 text-white">
       <div class="container mx-auto h-full flex flex-col justify-center">
         <div>Welcome to</div>
-        <div class="mt-1 sm:text-6xl font-bold">Abir's Project</div>
+        <div class="mt-1 sm:text-6xl font-bold">Abir's Blog</div>
         <div class="mt-2 sm:w-1/2">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo illo,
         </div>
