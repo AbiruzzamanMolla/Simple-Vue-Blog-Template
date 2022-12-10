@@ -1,38 +1,20 @@
 <template>
   <div>
     <Hero />
-    <div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, fugiat. Enim
-        magni veritatis quasi ipsa facilis? Cumque beatae cum nulla repellat alias qui
-        eveniet perspiciatis incidunt quis totam optio, odio expedita temporibus iusto
-        delectus. Placeat distinctio ea debitis. Ad placeat qui expedita rem nemo enim,
-        sequi reiciendis quaerat praesentium rerum!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, fugiat. Enim
-        magni veritatis quasi ipsa facilis? Cumque beatae cum nulla repellat alias qui
-        eveniet perspiciatis incidunt quis totam optio, odio expedita temporibus iusto
-        delectus. Placeat distinctio ea debitis. Ad placeat qui expedita rem nemo enim,
-        sequi reiciendis quaerat praesentium rerum!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, fugiat. Enim
-        magni veritatis quasi ipsa facilis? Cumque beatae cum nulla repellat alias qui
-        eveniet perspiciatis incidunt quis totam optio, odio expedita temporibus iusto
-        delectus. Placeat distinctio ea debitis. Ad placeat qui expedita rem nemo enim,
-        sequi reiciendis quaerat praesentium rerum!
-      </p>
+    <div class="py-8 sm:py-20 px-4 sm:px-0 container mx-auto">
+      <Articles />
     </div>
   </div>
 </template>
 
 <script>
+import Articles from "../../components/Articles.vue";
 import Hero from "./Hero.vue";
 export default {
   name: "Home",
   components: {
     Hero,
+    Articles,
   },
 };
 </script>

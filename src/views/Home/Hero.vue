@@ -2,14 +2,12 @@
   <div class="relative z-0 hero-height">
     <img src="/images/hero.jpg" alt="hero" class="block w-full h-full object-cover" />
     <div class="absolute inset-0 bg-black opacity-50"></div>
-    <div class="px-4 sm:px-0 absolute inset-0 text-white">
+    <div class="px-4 sm:px-0 pt-8 sm:pt-0 absolute inset-0 text-white">
       <div class="container mx-auto h-full flex flex-col justify-center">
         <div>Welcome to</div>
-        <div class="mt-1 text-6xl font-bold">Abir's Project</div>
+        <div class="mt-1 sm:text-6xl font-bold">Abir's Project</div>
         <div class="mt-2 sm:w-1/2">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo illo, doloremque
-          commodi eligendi perspiciatis facere soluta saepe vel distinctio ipsa architecto
-          accusantium eos blanditiis! Ut incidunt impedit quo fuga delectus.
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo illo,
         </div>
         <div class="mt-8 text-primary">
           <svg
