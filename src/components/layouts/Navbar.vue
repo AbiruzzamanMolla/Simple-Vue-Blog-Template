@@ -49,6 +49,7 @@
         class="mt-4 sm:mt-0 w-full sm:space-x-4 sm:text-right sm:block"
         :class="{ hidden: !isVisible, 'sm:text-white': !showWhiteBackground }"
       >
+        <NavbarLinkVue to="/" label="Home" />
         <NavbarLinkVue to="/articles" label="Articles" />
         <NavbarLinkVue to="/about" label="About" />
         <NavbarLinkVue to="/contact" label="Contact" />
